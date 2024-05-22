@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mmt.HotelTest">
+      <class name="com.goibibo.test.testScript.CabsTest">
         <methods>
-          <include name="book"/>
+          <include name="ConfigAs"/>
           <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="bookCab"/>
         </methods>
-      </class> <!-- mmt.HotelTest -->
+      </class> <!-- com.goibibo.test.testScript.CabsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

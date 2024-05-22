@@ -1,21 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-21T19:29:24Z" name="Default suite" finished-at="2024-05-21T19:29:54Z" duration-ms="29947">
+  <suite started-at="2024-05-22T06:55:14Z" name="Suite" finished-at="2024-05-22T06:56:50Z" duration-ms="96414">
     <groups>
+      <group name="ST">
+        <method signature="CabsTest.bookCab()[pri:0, instance:com.goibibo.test.testScript.CabsTest@3b96c42e]" name="bookCab" class="com.goibibo.test.testScript.CabsTest"/>
+        <method signature="TrainsTest.train()[pri:0, instance:com.goibibo.test.testScript.TrainsTest@1e461e41]" name="train" class="com.goibibo.test.testScript.TrainsTest"/>
+      </group> <!-- ST -->
     </groups>
-    <test started-at="2024-05-21T19:29:24Z" name="Default test" finished-at="2024-05-21T19:29:54Z" duration-ms="29947">
-      <class name="mmt.HotelTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:mmt.HotelTest@7a1a14a4]" started-at="2024-05-21T19:29:24Z" name="launchBrowser" finished-at="2024-05-21T19:29:38Z" duration-ms="14159" status="PASS">
+    <test started-at="2024-05-22T06:55:14Z" name="Test" finished-at="2024-05-22T06:56:50Z" duration-ms="96414">
+      <class name="com.goibibo.test.testScript.TrainsTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.goibibo.test.testScript.TrainsTest@1e461e41]" started-at="2024-05-22T06:56:16Z" name="launchBrowser" finished-at="2024-05-22T06:56:28Z" duration-ms="12745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="book()[pri:0, instance:mmt.HotelTest@7a1a14a4]" started-at="2024-05-21T19:29:38Z" name="book" finished-at="2024-05-21T19:29:54Z" duration-ms="15738" status="PASS">
+        <test-method is-config="true" signature="loginIntoSS()[pri:0, instance:com.goibibo.test.testScript.TrainsTest@1e461e41]" started-at="2024-05-22T06:56:28Z" name="loginIntoSS" finished-at="2024-05-22T06:56:31Z" duration-ms="2445" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- book -->
-      </class> <!-- mmt.HotelTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- loginIntoSS -->
+        <test-method signature="train()[pri:0, instance:com.goibibo.test.testScript.TrainsTest@1e461e41]" started-at="2024-05-22T06:56:31Z" name="train" finished-at="2024-05-22T06:56:49Z" duration-ms="18531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- train -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.goibibo.test.testScript.TrainsTest@1e461e41]" started-at="2024-05-22T06:56:49Z" name="closeBrowser" finished-at="2024-05-22T06:56:50Z" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.goibibo.test.testScript.TrainsTest -->
+      <class name="com.goibibo.test.testScript.CabsTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.goibibo.test.testScript.CabsTest@3b96c42e]" started-at="2024-05-22T06:55:14Z" name="launchBrowser" finished-at="2024-05-22T06:55:32Z" duration-ms="17758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginIntoSS()[pri:0, instance:com.goibibo.test.testScript.CabsTest@3b96c42e]" started-at="2024-05-22T06:55:32Z" name="loginIntoSS" finished-at="2024-05-22T06:55:34Z" duration-ms="2585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoSS -->
+        <test-method signature="bookCab()[pri:0, instance:com.goibibo.test.testScript.CabsTest@3b96c42e]" started-at="2024-05-22T06:55:34Z" name="bookCab" finished-at="2024-05-22T06:55:50Z" duration-ms="15601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookCab -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.goibibo.test.testScript.CabsTest@3b96c42e]" started-at="2024-05-22T06:55:50Z" name="closeBrowser" finished-at="2024-05-22T06:55:53Z" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="ConfigAs()[pri:0, instance:com.goibibo.test.testScript.CabsTest@3b96c42e]" started-at="2024-05-22T06:56:50Z" name="ConfigAs" finished-at="2024-05-22T06:56:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigAs -->
+      </class> <!-- com.goibibo.test.testScript.CabsTest -->
+      <class name="com.goibibo.test.testScript.FlightTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.goibibo.test.testScript.FlightTest@5d066c7d]" started-at="2024-05-22T06:55:53Z" name="launchBrowser" finished-at="2024-05-22T06:56:09Z" duration-ms="15924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginIntoSS()[pri:0, instance:com.goibibo.test.testScript.FlightTest@5d066c7d]" started-at="2024-05-22T06:56:09Z" name="loginIntoSS" finished-at="2024-05-22T06:56:10Z" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoSS -->
+        <test-method signature="buy()[pri:0, instance:com.goibibo.test.testScript.FlightTest@5d066c7d]" started-at="2024-05-22T06:56:10Z" name="buy" finished-at="2024-05-22T06:56:15Z" duration-ms="4702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buy -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.goibibo.test.testScript.FlightTest@5d066c7d]" started-at="2024-05-22T06:56:15Z" name="closeBrowser" finished-at="2024-05-22T06:56:16Z" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.goibibo.test.testScript.FlightTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
